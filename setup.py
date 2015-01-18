@@ -8,7 +8,7 @@ readme = open('README.rst').read()
 setup(
     name="pytest-bpdb",
     packages=["pytestbpdb"],
-    version="0.1.2",
+    version="0.1.3.dev0",
     description="A py.test plug-in to enable drop to bpdb debugger on test failure.",
     long_description=readme,
     author="Sławek Ehlert",
