@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name="pytest-bpdb",
     packages=["pytestbpdb"],
-    version="0.1.0.dev0",
+    version="0.1.0",
     description="A py.test plug-in to enable drop to bpdb debugger on test failure.",
     author="Sławek Ehlert",
     author_email="slafs.e@gmail.com",
