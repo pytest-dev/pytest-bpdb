@@ -2,11 +2,15 @@
 
 from setuptools import setup
 
+readme = open('README.rst').read()
+
+
 setup(
     name="pytest-bpdb",
     packages=["pytestbpdb"],
     version="0.1.1.dev0",
     description="A py.test plug-in to enable drop to bpdb debugger on test failure.",
+    long_description=readme,
     author="Sławek Ehlert",
     author_email="slafs.e@gmail.com",
     url="https://github.com/slafs/pytest-bpdb",
