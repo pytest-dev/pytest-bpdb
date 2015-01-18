@@ -16,6 +16,11 @@ A pytest_ plugin for dropping to bpdb_ on test failures.
 .. image:: https://pypip.in/d/pytest-bpdb/badge.png
         :target: https://pypi.python.org/pypi/pytest-bpdb
 
+This plugin is almost entirely based on built-in `pytest pdb plugin`_
+and `pytest-ipdb`_ plugin
+
+.. _pytest pdb plugin: https://bitbucket.org/hpk42/pytest/src/d942d16857f3fd225d25bc21aa6531449163528c/_pytest/pdb.py?at=default
+.. _pytest-ipdb: https://github.com/mverteuil/pytest-ipdb
 
 Installation
 ============
