@@ -7,6 +7,16 @@ A pytest_ plugin for dropping to bpdb_ on test failures.
 .. _pytest: http://pytest.org
 .. _bpdb: http://docs.bpython-interpreter.org/bpdb.html
 
+.. image:: https://travis-ci.org/slafs/pytest-bpdb.png?branch=master
+        :target: https://travis-ci.org/slafs/pytest-bpdb
+
+.. image:: https://badge.fury.io/py/pytest-bpdb.png
+    :target: http://badge.fury.io/py/pytest-bpdb
+
+.. image:: https://pypip.in/d/pytest-bpdb/badge.png
+        :target: https://pypi.python.org/pypi/pytest-bpdb
+
+
 Installation
 ============
 
